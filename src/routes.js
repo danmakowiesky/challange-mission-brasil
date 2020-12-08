@@ -1,9 +1,6 @@
 import {Router}  from 'express';
-
+import ZipImages from './ZipImages';
 const routes = new Router();
 
-routes.get('/', (req, res) => {
-  return res.json({message: 'hello'});
-})
-
+routes.get('/download/zip', ZipImages.zip);
 export default routes;
