@@ -21,5 +21,5 @@ $ yarn dev
 ```
 ## Step 3 - Executar o endpoint no navegador para fazer o download do zip.
 ```
-localhost:3000/images/zip
+  localhost:3000/download/zip
 ```
